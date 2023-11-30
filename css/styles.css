@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container-principal {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/countryClub.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-vazio {
+    width: 300px;
+    height: 190px;
+    background-color: aliceblue;
+    opacity: 0.7;
+    border-radius: 20px;
+    border: 2px solid #8484c9;
+    box-shadow: 0 0 20px #414141;
+}
+
+.container-login {
+    width: 200px;
+    height: 40px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    padding: 20px;  
+}
+
+.container-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 150px;
+    height: 25px;
+    margin-top: 15px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #b9b9ff;
+    color: black;
+    box-shadow: 1px 1px 3px grey;
+}
+
+h1 {
+    font-size: 20px;
+    color: #8484c9;
+    text-shadow: 1px 1px 2px #414141;
+}
+
+button {
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+    background-color: #b9b9ff;
+    color: white;
+    box-shadow: 1px 1px 3px grey;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8484c9;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 360px) {
+
+    .container-principal {
+        background-image: url("../img/CC_Resp.png");
+    }
+
+
+}
